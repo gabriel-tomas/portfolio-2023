@@ -1,0 +1,9 @@
+.main-paragraph {
+    font-style: normal;
+    font-weight: 520;
+    font-size: 1.4rem;
+    line-height: clamp(10px, 6vw, 22.4px);
+    font-stretch: 151%;
+    font-variation-settings: 'GRAD' -200, 'slnt' 0, 'XTRA' 468, 'XOPQ' 96, 'YOPQ' 135, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+    margin-top: 11px;
+}

@@ -1,0 +1,13 @@
+.main-section--bottom-text {
+    position: relative;
+    top: -45px;
+}
+
+.main-section--bottom-text > h3 {
+    font-family: var(--font-titles-highlight);
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(4rem, 15vw, 5rem);
+    mix-blend-mode: difference;
+    color: var(--theme-color1-neutral);
+}

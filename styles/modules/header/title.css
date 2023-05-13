@@ -1,0 +1,13 @@
+.header--title {
+    font-weight: 420;
+    font-size: 1.5rem;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: var(--theme-color0-neutral);
+    font-variation-settings: 'GRAD' -37, 'slnt' -10, 'XTRA' 468, 'XOPQ' 96, 'YOPQ' 31, 'YTLC' 416, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+}
+
+.header--title-emph {
+    font-stretch: 100%;
+    font-variation-settings: 'GRAD' 37, 'slnt' -10, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 25, 'YTLC' 514, 'YTUC' 760, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'opsz' 8;
+}
