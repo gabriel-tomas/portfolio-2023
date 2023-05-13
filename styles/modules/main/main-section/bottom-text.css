@@ -9,5 +9,6 @@
     font-weight: 700;
     font-size: clamp(4rem, 15vw, 5rem);
     mix-blend-mode: difference;
+    transform: translate3d(0, 0, 0);
     color: var(--theme-color1-neutral);
 }
