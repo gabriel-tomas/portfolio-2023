@@ -68,6 +68,11 @@ section {
 	margin-block: 3vh;
 }
 
+main, footer {
+	width: min(100%, 1920px);
+	margin-inline: auto;
+}
+
 ol, ul {
 	list-style: none;
 }

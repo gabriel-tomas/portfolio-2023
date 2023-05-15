@@ -1,0 +1,6 @@
+.main-title-h3 {
+    font-family: var(--font-titles-highlight);
+    font-weight: 700;
+    font-size: 2.54rem;
+    letter-spacing: 0.065em;
+}
