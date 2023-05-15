@@ -96,6 +96,7 @@ button {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
+	color: var(--theme-color0-neutral);
 }
 
 a {

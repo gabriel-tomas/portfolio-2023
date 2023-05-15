@@ -33,3 +33,9 @@
 @import url("modules/main/portfolio-section/items-container/item/tags-container.css");
 
 @import url("modules/main/portfolio-section/items-container/item/internal-link.css");
+
+@import url("layout/contact-section.css");
+
+@import url("modules/main/contact-section/text.css");
+
+@import url("modules/main/button.css");

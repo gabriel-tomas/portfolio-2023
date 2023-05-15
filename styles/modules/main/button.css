@@ -1,0 +1,18 @@
+.main-button {
+    margin-top: 25px;
+}
+
+.main-button > button {
+    background-color: var(--theme-color1);
+    padding: min(5%, 15px) min(15%, 52px);
+    margin-left: min(2.75vw, 15px);
+}
+
+.main-button div {
+    font-family: var(--font-normal);
+    color: var(--theme-color1-neutral);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0.065em;
+}

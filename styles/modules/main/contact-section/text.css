@@ -1,0 +1,8 @@
+.contact-section--text > p {
+    font-family: var(--font-normal);
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-style: normal;
+    letter-spacing: 0.065em;
+    margin-top: 15px;
+}
