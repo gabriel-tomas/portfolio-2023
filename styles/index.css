@@ -23,3 +23,13 @@
 @import url("modules/main/titles.css");
 
 @import url("layout/portfolio-section.css");
+
+@import url("modules/main/portfolio-section/items-container.css");
+
+@import url("modules/main/portfolio-section/items-container/item.css");
+
+@import url("modules/main/portfolio-section/items-container/item/image-container.css");
+
+@import url("modules/main/portfolio-section/items-container/item/tags-container.css");
+
+@import url("modules/main/portfolio-section/items-container/item/internal-link.css");
