@@ -1,6 +1,6 @@
 .main-section--video {
     width: clamp(200px, 100%, 600px);
-    height: clamp(400px, 45vh, 547.641px);
+    height: clamp(260px, 52vh, 465.906px);
     margin-block: 12.5px;
 }
 
