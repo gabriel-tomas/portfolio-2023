@@ -39,3 +39,9 @@
 @import url("modules/main/contact-section/text.css");
 
 @import url("modules/main/button.css");
+
+@import url("layout/footer.css");
+
+@import url("modules/footer/text.css");
+
+@import url("modules/footer/links.css");

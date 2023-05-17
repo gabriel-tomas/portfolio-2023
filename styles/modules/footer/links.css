@@ -1,0 +1,9 @@
+.footer--links {
+    display: flex;
+}
+
+.footer--links > div > a {
+    display: block;
+    width: min(10vw, 69.594px);
+    text-align: center;
+}
