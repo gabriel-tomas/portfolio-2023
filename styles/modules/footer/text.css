@@ -1,6 +1,6 @@
 .footer--text > p {
-    font-family: var(--font-normal);
-    font-weight: 500;
+    font-family: var(--font-default-hightlight);
+    font-weight: 550;
     font-style: normal;
     letter-spacing: -0.024em;
     font-size: 1.49rem;
