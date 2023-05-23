@@ -5,6 +5,7 @@ menu.style["visibility"] = "hidden";
 function open_menu() {
     if (menu.style["visibility"] == "hidden") {
         document.querySelector("body > main").style["touch-action"] = "none";
+        document.querySelector("body").style["height"] = "max(100vh, 639.672px)";
         menu.style["transform"] = "translateX(100vw)";
         setTimeout('menu.style["visibility"] = "visible"', 250);
         setTimeout('menu.style["transform"] = "translateX(0vw)"', 250);
