@@ -5,6 +5,7 @@
 
 .menu--back .material-symbols-outlined {
     color: var(--theme-color1-neutral);
-    font-size: 3.4rem;
-    margin-top: 5px;
+    font-size: 3rem;
+    margin-top: 6px;
+    padding: 1px 6px;
 }
