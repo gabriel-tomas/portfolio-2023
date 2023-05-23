@@ -1,5 +1,5 @@
 #menu {
-    height: max(100vh, 639.672px);
+    height: 100vh;
     position: absolute;
     top: 0px;
     left: -4vw;
@@ -15,6 +15,7 @@
     transform: translateX(0vw);
     transition: transform .25s cubic-bezier(0,.4,.2,1);
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;/* Para IOS Safari */
 }
 
 #menu--item0, #menu--item1, #menu--item2 {
