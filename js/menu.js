@@ -15,7 +15,7 @@ function open_menu() {
         
     }
     else {
-        document.querySelector("body > main").style["touch-action"] = "auto";
+        document.querySelector("body > main").style.removeProperty("touch-action");
         menu.style["transform"] = "translateX(100vw)";
         document.getElementById("menu--item0").style["opacity"] = "0%";
         document.getElementById("menu--item1").style["opacity"] = "0%";
