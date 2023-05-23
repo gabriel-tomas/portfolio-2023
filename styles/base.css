@@ -58,12 +58,12 @@ html, body {
 html {
 	font-size: 11px;
 	font-family: var(--font-default-highlight);
-	overflow-x: hidden;
 }
 
 body {
 	line-height: 1;
 	padding-inline: 4vw;
+	overflow-x: hidden;
 }
 
 section {
