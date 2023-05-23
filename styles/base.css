@@ -55,10 +55,6 @@ html, body {
 	background-color: var(--theme-color0);
 }
 
-body {
-	background-color: var(--theme-color1-neutral);
-}
-
 html {
 	font-size: 11px;
 	font-family: var(--font-default-highlight);
