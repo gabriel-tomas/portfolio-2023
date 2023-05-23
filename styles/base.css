@@ -9,6 +9,7 @@
 :root {
 	--theme-color0: #F5F8FD;
 	--theme-color1: #110E12;
+	--theme-color2: #0C0E12;
 	--theme-color0-neutral: #000000;
 	--theme-color1-neutral: white;
 	
@@ -57,6 +58,7 @@ html, body {
 html {
 	font-size: 11px;
 	font-family: var(--font-default-highlight);
+	overflow-x: hidden;
 }
 
 body {

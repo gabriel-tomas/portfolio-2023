@@ -20,15 +20,66 @@
 <body>
     <header class="header">
         <h1 class="header--title"><span class="header--title-emph">P</span>ortfolio 2023</h1>
-        <button>
+        <button id="menu-button" onclick="open_menu()">
             <span class="material-symbols-outlined">drag_handle</span>
         </button>
         <!-- menu do botão drag handle -->
+        <div id="menu">
+            <div class="menu--back" id="menu--item0" onclick="open_menu()">
+                <button>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </button>
+            </div>
+            <main class="menu--links" id="menu--item1">
+                <div>
+                    <a href="#">Ínicio</a>
+                </div>
+                <div>
+                    <a href="#">Sobre</a>
+                </div>
+                <div>
+                    <a href="#">Galeria</a>
+                </div>
+                <div>
+                    <a href="#">Portfolio</a>
+                </div>
+                <div>
+                    <a href="#">Contato</a>
+                </div>
+            </main>
+            <footer class="menu--menu-footer" id="menu--item2">
+                <div class="menu-footer--links">
+                    <div class="page-links">
+                        <a href="#">
+                            <div>
+                                <p>GitHub</p>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">open_in_new</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="page-links">
+                        <a href="#">
+                            <div>
+                                <p>Instagram</p>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">open_in_new</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-footer--page-icon">
+                    <img src="images/icons/page-icon.svg" alt="Icone da página">
+                </div>
+            </footer>
+        </div>
     </header>
     <main>
         <section class="main-section">
-            <div class="main-section--top-text">
-                <h2>Olá, sou Gabriel, Front-end developer</h2>
+            <div>
+                <h2 class="impact-text">Olá, sou Gabriel, Front-end developer</h2>
                 <p class="main-paragraph">Faço websites responsivos, desde o design até a criação, usando tecnologias e ferramentas como <strong>HTML</strong>, <strong>CSS</strong>, <strong>Figma</strong> e <strong>Gimp</strong>.</p>
             </div>
             <div class="main-section--video">
@@ -40,7 +91,7 @@
             </div>
             <div class="main-section--bottom-text">
                 <h3>Esse sou eu</h3>
-                <div class="main-page-internal-link">
+                <div class="page-links">
                     <a href="#">
                         <div>
                             <p>Mais sobre mim</p>
@@ -57,7 +108,7 @@
                 <h3 class="main-title-h3">Portfólio</h3>
                 <p class="main-paragraph">Alguns dos meu projetos mais recentes.</p>
                 <p class="main-paragraph">Ou você pode ver algo mais visual, clicando no link abaixo para a galeria.</p>
-                <div class="main-page-internal-link">
+                <div class="page-links">
                     <a href="#">
                         <div>
                             <p>Galeria de Projetos</p>
@@ -70,7 +121,7 @@
             </div>
             <div class="portfolio-section--items-container">
                 <div class="items-container--item">
-                    <div class="main-page-internal-link item--internal-link">
+                    <div class="page-links item--internal-link">
                         <a href="#">
                             <div>
                                 <p>Ver Projeto</p>
@@ -105,7 +156,7 @@
                     </div>
                 </div>
                 <div class="items-container--item">
-                    <div class="main-page-internal-link item--internal-link">
+                    <div class="page-links item--internal-link">
                         <a href="#">
                             <div>
                                 <p>Ver Projeto</p>
@@ -134,7 +185,7 @@
                     </div>
                 </div>
                 <div class="items-container--item">
-                    <div class="main-page-internal-link item--internal-link">
+                    <div class="page-links item--internal-link">
                         <a href="#">
                             <div>
                                 <p>Ver Projeto</p>
@@ -163,7 +214,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main-page-internal-link">
+            <div class="page-links">
                 <a href="#">
                     <div>
                         <p>Ver mais projetos</p>
@@ -199,5 +250,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 </html>

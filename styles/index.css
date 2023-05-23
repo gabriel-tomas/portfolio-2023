@@ -18,7 +18,7 @@
 
 @import url("modules/main/main-section/bottom-text.css");
 
-@import url("modules/main/links.css");
+@import url("modules/links.css");
 
 @import url("modules/main/titles.css");
 
@@ -45,3 +45,15 @@
 @import url("modules/footer/text.css");
 
 @import url("modules/footer/links.css");
+
+@import url("layout/menu.css");
+
+@import url("modules/header/menu/back.css");
+
+@import url("modules/header/menu/links.css");
+
+@import url("modules/header/menu/footer.css");
+
+@import url("modules/header/menu/footer/links.css");
+
+@import url("modules/header/menu/footer/page-icon.css");

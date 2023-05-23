@@ -1,0 +1,10 @@
+.menu--links > div {
+    margin-bottom: clamp(30.450px, 5vh, 45px);
+}
+
+.menu--links a{
+    color: var(--theme-color1-neutral);
+    font-weight: 600;
+    font-variation-settings: 'GRAD' 150, 'slnt' -10, 'XTRA' 603, 'XOPQ' 119, 'YOPQ' 25, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+    font-size: 3.3rem;
+}

@@ -1,0 +1,10 @@
+.menu--back {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu--back .material-symbols-outlined {
+    color: var(--theme-color1-neutral);
+    font-size: 3.4rem;
+    margin-top: 5px;
+}

@@ -1,0 +1,22 @@
+#menu {
+    height: max(100vh, 639.672px);
+    position: absolute;
+    top: 0px;
+    left: -4vw;
+    background-color: var(--theme-color2);
+    width: calc(100% + 8vw);
+    padding-inline: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: max(10vh, 46px);
+    /* temporario */
+    z-index: 1;
+    transform: translateX(100vw);
+    transition: transform .25s cubic-bezier(0,.4,.2,1);
+}
+
+#menu--item0, #menu--item1, #menu--item2 {
+    opacity: 0%;
+    transition: opacity .5s;
+}

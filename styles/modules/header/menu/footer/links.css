@@ -1,0 +1,13 @@
+.menu-footer--links p , .menu-footer--links .material-symbols-outlined {
+    color: var(--theme-color1-neutral);
+    font-weight: 300;
+}
+
+.menu-footer--links a::after {
+    background-color: var(--theme-color1-neutral);
+    height: 2px;
+}
+
+.menu-footer--links .material-symbols-outlined {
+    top: 1.5px;
+}

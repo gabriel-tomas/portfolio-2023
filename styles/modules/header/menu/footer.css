@@ -1,0 +1,8 @@
+.menu--menu-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    border-top: 1px solid var(--theme-color1-neutral);
+    padding-top: 20px;
+}
