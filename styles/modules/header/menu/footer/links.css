@@ -1,6 +1,7 @@
 .menu-footer--links p , .menu-footer--links .material-symbols-outlined {
     color: var(--theme-color1-neutral);
     font-weight: 300;
+    font-size: 1.4rem;
 }
 
 .menu-footer--links a::after {
