@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me | Portfolio 2023</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../images/favicon/safari-pinned-tab.svg" color="#404040">
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="../images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="../styles/index/index-about.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header--title"><span class="header--title-emph">P</span>ortfolio 2023</h1>
+        <button id="menu-button" onclick="open_menu()">
+            <span class="material-symbols-outlined">drag_handle</span>
+        </button>
+        <!-- menu do botão drag handle -->
+        <div id="menu">
+            <div class="menu--back" id="menu--item0" onclick="open_menu()">
+                <button>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </button>
+            </div>
+            <main class="menu--links" id="menu--item1">
+                <div>
+                    <a href="../index.html">Ínicio</a>
+                </div>
+                <div>
+                    <a href="about.html">Sobre</a>
+                </div>
+                <div>
+                    <a href="#">Galeria</a>
+                </div>
+                <div>
+                    <a href="#">Portfolio</a>
+                </div>
+                <div>
+                    <a href="#">Contato</a>
+                </div>
+            </main>
+            <footer class="menu--menu-footer" id="menu--item2">
+                <div class="menu-footer--links">
+                    <div class="page-links">
+                        <a href="#">
+                            <div>
+                                <p>GitHub</p>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">open_in_new</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="page-links">
+                        <a href="#">
+                            <div>
+                                <p>Instagram</p>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">open_in_new</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-footer--page-icon">
+                    <img src="../images/icons/page-icon.svg" alt="Icone da página">
+                </div>
+            </footer>
+        </div>
+    </header>
+    <main>
+        <section class="about-me">
+            <div>
+                <h2 class="impact-text">Um pouco sobre mim</h2>
+                <div class="about-me--paragraphs">
+                    <p class="main-paragraph">Em 2021 quando descobri a área de programação com a linguagem Python fiquei surpreendido e animado como as coisas eram e são, com o passar do tempo só me aprofundei muito nessa área e cheguei ao Front-end onde atualmente estou e amo.</p>
+                    <p class="main-paragraph">Nesses ultimos meses venho aprendendo tecnologias e conceitos para o desenvolvimento de sites e o design do mesmo. Atualmente venho desenvolvendo projetos desde o design até a construção dele com o intuito de aprender mais, e esse é um desses projetos :)</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="../images/about-me/about-me-photo(1000).jpeg" type="image/jpeg">
+                            <source media="(min-width: 600px)" srcset="../images/about-me/about-me-photo(768).jpeg" type="image/jpeg">
+                            <img src="../images/about-me/about-me-photo(600).jpeg" alt="Projeto site-project4">
+                        </picture>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>Veja  minhas redes sociais</h3>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#">
+                                <div>
+                                    <span>GitHub</span>
+                                </div>
+                                <div>
+                                    <span class="material-symbols-outlined">open_in_new</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <div>
+                                    <span>Instagram</span>
+                                </div>
+                                <div>
+                                    <span class="material-symbols-outlined">open_in_new</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="contact-section--text">
+                <h3 class="main-title-h3">Quer conversar?</h3>
+                <p>A gente vê como vai ser :)</p>
+            </div>
+            <div class="main-button">
+                <button>
+                    <div>Enviar email</div>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer--text">
+            <p>Feito por Gabriel Tomás</p>
+        </div>
+        <div class="footer--links">
+            <div>
+                <a href="#" target="_blank" rel="external"><img src="../images/icons/instagram.svg" alt="Instagram"></a>
+            </div>
+            <div>
+                <a href="https://github.com/gabriel-tomas" target="_blank" rel="external"><img src="../images/icons/github.svg" alt="Github"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/menu.js"></script>
+</body>
+</html>
