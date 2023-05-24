@@ -41,3 +41,15 @@
 @import url("../modules/header/menu/footer/page-icon.css");
 
 @import url("../modules/main/about-me/text/paragraphs.css");
+
+@import url("../modules/main/about-me/photo-socials/photo-container.css");
+
+@import url("../modules/main/about-me/photo-socials.css");
+
+@import url("../modules/main/about-me/photo-socials/socials-container.css");
+
+@import url("../modules/main/about-me/photo-socials/socials-container/title.css");
+
+@import url("../modules/main/about-me/photo-socials/socials-container/socials-link.css");
+
+@import url("../modules/main/about-me/photo-socials/socials-container/socials-link/container-link.css");

@@ -1,0 +1,8 @@
+.photo-socials--photo-container {
+    width: min(75%, 320px);
+}
+
+.photo-socials--photo-container img {
+    width: 100%;
+    box-shadow: 19px 13px 0px var(--theme-color0-neutral);
+}

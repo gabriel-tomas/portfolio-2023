@@ -1,0 +1,14 @@
+.socials-container--title {
+    font-size: .9rem;
+    width: 100px;
+    line-height: clamp(10px, 5vw, 22.4px);
+    text-align: right;
+    margin-right: 10px;
+}
+
+.socials-container--title > h3 {
+    color: var(--theme-color1-neutral);
+    mix-blend-mode: difference;
+    font-weight: 420;
+    transform: translate3d(0, 0, 0);
+}
