@@ -1,0 +1,9 @@
+.pictures--item {
+    display: grid;
+    max-width: 440px;
+    gap: .20rem .45rem;
+}
+
+.pictures--item img {
+    width: 100%;
+}

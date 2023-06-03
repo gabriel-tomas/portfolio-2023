@@ -1,0 +1,21 @@
+.pictures--connectify {
+    grid-template-columns: 2.7fr 1.7fr 1.044fr;
+    grid-template-rows: auto auto 1fr;
+}
+
+.pictures--connectify > .item-1 {
+    grid-area: 1 / 1 / 3 / 1;
+}
+
+.pictures--connectify > .item-2 {
+    grid-row: 1 / 2;
+    grid-column: 2;
+}
+
+.pictures--connectify > .item-3 {
+    grid-area: 1 / 3 / -1 / 3;
+}
+
+.pictures--connectify > .item-4 {
+    grid-area: 2 / 2 / 4 / 2;
+}

@@ -1,0 +1,7 @@
+.pictures--newsnotice {
+    grid-template-columns: 1fr 3.5fr .6fr;
+}
+
+.pictures--newsnotice > .item-1 {
+    grid-column: 1 / 4;
+}

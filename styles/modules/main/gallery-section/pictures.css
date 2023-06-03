@@ -1,0 +1,6 @@
+.gallery-section--pictures {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(20px, calc(1vh + 1vw), 40px);
+}

@@ -1,0 +1,4 @@
+.pictures--projet-login {
+    grid-template-columns: 2.16fr 1fr;
+    grid-template-rows: auto auto;
+}
