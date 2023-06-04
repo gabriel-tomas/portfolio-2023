@@ -1,0 +1,23 @@
+.video--button {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 100%;
+}
+
+.video--button > div {
+    width: min(14vw, 52.500px);
+    height: min(14vw, 52.500px);
+    background-color: var(--theme-color0);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+}
+
+.video--button .button--icon {
+    font-variation-settings: "FILL" 1;
+    font-size: 285%;
+    color: var(--theme-color1);
+}
