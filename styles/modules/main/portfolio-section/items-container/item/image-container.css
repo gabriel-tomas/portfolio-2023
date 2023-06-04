@@ -1,3 +1,7 @@
+.item--image-container {
+    margin-bottom: 5px;
+}
+
 .item--image-container img {
     width: 100%;
 }

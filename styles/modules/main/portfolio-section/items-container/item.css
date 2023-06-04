@@ -1,5 +1,5 @@
 .items-container--item {
-    margin-block: 3vh;
+    margin-block: min(5vh, 33.350px);
     position: relative;
     width: min(100%, 500px);
 }

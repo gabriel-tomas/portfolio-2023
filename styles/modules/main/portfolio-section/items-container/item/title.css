@@ -1,0 +1,19 @@
+.item--title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 7px;
+}
+
+.item--title > div {
+    width: 6.3px;
+    height: 6.3px;
+    background-color: var(--theme-color1-light);
+    border-radius: 100%;
+}
+
+.item--title > h4 {
+    font-size: 1.219rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
