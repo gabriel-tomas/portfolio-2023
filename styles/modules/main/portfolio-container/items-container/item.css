@@ -1,0 +1,4 @@
+.portfolio-items--item {
+    margin-top: 0;
+    margin-bottom: clamp(40.350px, 6vh, 44.120px);
+}
