@@ -1,0 +1,6 @@
+.contact-section-page {
+    margin-block: 0;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+}

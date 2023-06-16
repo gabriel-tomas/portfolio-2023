@@ -1,3 +1,4 @@
 .contact-section {
     margin-top: 12vh;
+    margin-bottom: min(5vh, 33px);
 }

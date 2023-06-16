@@ -1,0 +1,6 @@
+.main-contact {
+    height: calc(100svh - 52px - 26px - (14.500px * 2) - 2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

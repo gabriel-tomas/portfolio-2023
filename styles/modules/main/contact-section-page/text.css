@@ -1,0 +1,11 @@
+.contact-section-page--text > * {
+    text-align: center;
+}
+
+.contact-section-page--text > h3 {
+    font-size: 3.2rem;
+}
+
+.contact-section-page--text > p {
+    margin-top: 9px;
+}

@@ -65,6 +65,9 @@ body {
 	line-height: 1;
 	padding-inline: 4vw;
 	overflow-x: hidden;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 section {
@@ -74,6 +77,10 @@ section {
 main, footer {
 	width: min(100%, 1920px);
 	margin-inline: auto;
+}
+
+footer {
+	margin-top: auto;
 }
 
 ol, ul {
