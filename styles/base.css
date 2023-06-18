@@ -74,13 +74,9 @@ section {
 	margin-block: 3vh;
 }
 
-main, footer {
+main {
 	width: min(100%, 1920px);
 	margin-inline: auto;
-}
-
-footer {
-	margin-top: auto;
 }
 
 ol, ul {
