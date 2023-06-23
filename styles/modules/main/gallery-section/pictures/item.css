@@ -1,6 +1,6 @@
 .pictures--item {
     display: grid;
-    max-width: 440px;
+    max-width: 768px;
     gap: .20rem .45rem;
 }
 
