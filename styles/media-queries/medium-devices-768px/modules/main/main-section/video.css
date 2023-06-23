@@ -1,0 +1,7 @@
+.main-section--video {
+    height: 82vh;
+}
+
+.main-section--video > video {
+    object-fit: cover;
+}

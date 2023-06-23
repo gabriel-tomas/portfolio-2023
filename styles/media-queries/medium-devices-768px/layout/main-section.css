@@ -1,0 +1,8 @@
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section > .main-section--medium-device-wdth {
+    flex-basis: 50%;
+}

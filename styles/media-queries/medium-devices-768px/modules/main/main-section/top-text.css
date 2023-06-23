@@ -1,0 +1,7 @@
+.main-section--top-text {
+    z-index: 1;
+}
+
+.main-section--top-text > .impact-text {
+    width: min(200%, 601.344px);
+}
