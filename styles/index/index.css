@@ -63,8 +63,3 @@
 @import url("../modules/main/main-section/video/button.css");
 
 @import url("../layout/bottom-contact-footer.css");
-
-
-/* Media Query */
-
-@import url("../media-queries/medium-devices-768px.css") screen and (width > 768px);

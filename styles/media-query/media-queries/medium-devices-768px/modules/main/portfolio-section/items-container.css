@@ -1,0 +1,5 @@
+.portfolio-section--items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5%;
+}
