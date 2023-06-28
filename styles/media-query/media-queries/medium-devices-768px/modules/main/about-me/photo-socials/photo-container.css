@@ -1,0 +1,9 @@
+.photo-socials--photo-container {
+    width: 100%;
+    height: 80vh;
+}
+
+.photo-socials--photo-container img {
+    object-fit: cover;
+    height: 100%;
+}

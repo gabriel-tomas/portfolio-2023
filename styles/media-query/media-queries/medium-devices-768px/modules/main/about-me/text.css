@@ -1,0 +1,8 @@
+.about-me--text {
+    z-index: 1;
+    width: 50%;
+}
+
+.about-me--text > .impact-text {
+    width: min(200%, 601.344px);
+}
