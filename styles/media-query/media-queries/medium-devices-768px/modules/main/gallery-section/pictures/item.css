@@ -1,3 +1,4 @@
 .pictures--item {
     flex-basis: 49.5%;
+    max-width: none;
 }
