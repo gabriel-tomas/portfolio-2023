@@ -1,0 +1,6 @@
+.gallery-section--pictures {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 0;
+}
