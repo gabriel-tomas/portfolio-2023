@@ -1,0 +1,10 @@
+.header::after {
+    content: "";
+    width: 100vw;
+    height: 52px;
+    position: absolute;
+    z-index: -1;
+    left: -4vw;
+    top: 0px;
+    background-color: var(--theme-color0);
+}
