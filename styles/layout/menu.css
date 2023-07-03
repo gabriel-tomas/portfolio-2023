@@ -12,7 +12,7 @@
     justify-content: space-between;
     gap: max(10vh, 46px);
     /* temporario */
-    z-index: 1;
+    z-index: 3;
     transform: translateX(0vw);
     transition: transform .25s cubic-bezier(0,.4,.2,1);
     overflow-y: auto;
