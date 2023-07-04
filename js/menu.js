@@ -5,7 +5,7 @@ menu.style["visibility"] = "hidden";
 menu_behind.style["visibility"] = "hidden";
 
 function open_menu() {
-    if (window.matchMedia("(width > 768px)").matches) {
+    if (window.matchMedia("(min-width: 769px)").matches) {
         if (menu.style["visibility"] == "hidden") {
             document.querySelector("body > main").style["touch-action"] = "none";
             document.querySelector("body").style["overflow-y"] = "hidden";
@@ -28,7 +28,7 @@ function open_menu() {
             document.getElementById("menu--item0").style["opacity"] = "0%";
             document.getElementById("menu--item1").style["opacity"] = "0%";
             document.getElementById("menu--item2").style["opacity"] = "0%";
-            document.querySelector("body > main").style["display"] = "block";
+            //document.querySelector("body > main").style["display"] = "block";//
             setTimeout('menu.style["visibility"] = "hidden"', 250);
             setTimeout('menu_behind.style["visibility"] = "hidden"', 250);
             menu_behind.style["opacity"] = "0";
@@ -36,7 +36,7 @@ function open_menu() {
             setTimeout('menu.style["transform"] = "translateX(0vw)"', 250);
         }
     }
-    else if (window.matchMedia("(width <= 768px)").matches) {
+    else if (window.matchMedia("(max-width: 768px)").matches) {
         if (menu.style["visibility"] == "hidden") {
             document.querySelector("body > main").style["touch-action"] = "none";
             document.querySelector("body").style["overflow-y"] = "hidden";
