@@ -17,6 +17,8 @@
 	--font-default-highlight: "Roboto Flex local", sans-serif;
 	--font-titles-highlight: 'Roboto Condensed', sans-serif;
 	--font-normal: 'Roboto', sans-serif;
+
+	cursor: none;
 }
 
 * {

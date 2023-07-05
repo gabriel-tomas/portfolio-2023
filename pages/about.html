@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="../styles/index/index-about.css">
     <link rel="stylesheet" href="../styles/media-query/index/index-about-media-query.css">
 </head>
-<body>
+<body onmousemove="mouse_move(event)">
+    <div id="cursor"></div>
     <header class="header header-about">
         <h1 class="header--title"><span class="header--title-emph">P</span>ortfolio 2023</h1>
         <button id="menu-button" onclick="open_menu()">
@@ -152,5 +153,6 @@
         </footer>
     </div>
     <script src="../js/menu.js"></script>
+    <script src="../js/cursor.js"></script>
 </body>
 </html>
