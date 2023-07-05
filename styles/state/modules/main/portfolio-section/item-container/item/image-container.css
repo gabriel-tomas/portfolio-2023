@@ -1,0 +1,3 @@
+.item--image-container:hover .image-container--is-hovered > span {
+    top: 0px;
+}

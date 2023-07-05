@@ -5,3 +5,32 @@
 .item--image-container img {
     width: 100%;
 }
+
+.image-container--is-hovered {
+    position: absolute;
+    top: 44.5%;
+    right: 50%;
+    white-space: nowrap;
+    /*right: -37%;
+    top: 40%;*/
+    overflow: hidden;
+    z-index: 1;
+    mix-blend-mode: difference;
+    transform: translate3d(0, 0, 0) translateX(50%);
+}
+
+.image-container--is-hovered > span {
+    font-variation-settings: 'GRAD' 150, 'slnt' 0, 'XTRA' 603, 'XOPQ' 119, 'YOPQ' 25, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+    color: var(--theme-color1-neutral);
+    position: relative;
+    top: 100px;
+    transition: top 200ms;
+    font-size: clamp(2rem, 4vw + 1rem, 6rem);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*.image-container--is-hovered.left {
+    right: auto;
+    left: -37%;
+}*/
