@@ -1,4 +1,5 @@
 let cursor = document.getElementById("cursor");
+let body = document.querySelector("body")
 
 function is_touch_enabled() {
     return ( 'ontouchstart' in window ) ||
@@ -17,10 +18,7 @@ window.addEventListener('mousemove', function() {
     }
 });
 
-function mouse_move(pos) {
-    let mouse_x = pos.clientX;
-    let mouse_y = pos.clientY;
-
-    cursor.style.top = `${mouse_y}px`;
-    cursor.style.left = `${mouse_x}px`;
-}
+body.addEventListener("mousemove", (event) => {
+    cursor.style.top = `${event.clientY}px`;
+    cursor.style.left = `${event.clientX}px`;
+})
