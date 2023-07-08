@@ -1,5 +1,5 @@
 let cursor = document.getElementById("cursor");
-let body = document.querySelector("body")
+let body = document.querySelector("body");
 
 function is_touch_enabled() {
     return ( 'ontouchstart' in window ) ||
