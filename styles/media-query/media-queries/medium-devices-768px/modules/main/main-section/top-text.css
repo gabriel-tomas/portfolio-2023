@@ -1,5 +1,6 @@
 .main-section--top-text {
     z-index: 1;
+    height: fit-content;
 }
 
 .main-section--top-text > .impact-text {
