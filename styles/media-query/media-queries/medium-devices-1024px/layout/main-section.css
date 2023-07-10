@@ -1,0 +1,7 @@
+.main-section {
+    justify-content: space-between;
+}
+
+.main-section > .main-section--medium-device-wdth {
+    flex-basis: 40%;
+}
