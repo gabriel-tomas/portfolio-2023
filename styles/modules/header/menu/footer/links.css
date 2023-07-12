@@ -2,11 +2,13 @@
     color: var(--theme-color1-neutral);
     font-weight: 300;
     font-size: 1.4rem;
+    transition: color 165ms cubic-bezier(0,.4,.2,1);
 }
 
 .menu-footer--links a::after {
     background-color: var(--theme-color1-neutral);
     height: 2px;
+    transition: background-color 165ms cubic-bezier(0,.4,.2,1);
 }
 
 .menu-footer--links .material-symbols-outlined {

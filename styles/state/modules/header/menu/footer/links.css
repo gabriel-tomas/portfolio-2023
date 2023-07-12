@@ -1,0 +1,7 @@
+.menu-footer--links .page-links:hover p,  .menu-footer--links .page-links:hover .material-symbols-outlined{
+    color: var(--theme-color0-accent);
+}
+
+.menu-footer--links .page-links:hover a::after {
+    background-color: var(--theme-color0-accent);
+}
