@@ -1,0 +1,6 @@
+.menu--links a:hover {
+    color: var(--theme-color0-accent);
+    font-weight: 800;
+    font-stretch: 300%;
+    transition: font-stretch 100ms cubic-bezier(0,.4,.2,1),font-weight 100ms cubic-bezier(0,.4,.2,1),color 100ms cubic-bezier(0,.4,.2,1);
+}

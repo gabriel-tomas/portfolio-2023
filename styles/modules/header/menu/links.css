@@ -7,4 +7,5 @@
     font-weight: 600;
     font-variation-settings: 'GRAD' 150, 'slnt' -10, 'XTRA' 603, 'XOPQ' 119, 'YOPQ' 25, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
     font-size: 2.5rem;
+    transition: font-stretch 165ms cubic-bezier(0,.4,.2,1),font-weight 165ms cubic-bezier(0,.4,.2,1),color 165ms cubic-bezier(0,.4,.2,1);
 }
