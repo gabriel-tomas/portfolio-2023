@@ -1,0 +1,9 @@
+.link--container-icon {
+    overflow: hidden;
+}
+
+.link--container-icon > span {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}

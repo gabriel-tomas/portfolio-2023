@@ -1,0 +1,20 @@
+.page-links:hover .link--container-icon > span {
+    animation: icon-move .2s;
+}
+
+@keyframes icon-move {
+    0% {
+        bottom: 0px;
+        left: 0px;
+    }
+    
+    50% {
+        bottom: 18px;
+        left: 18px;
+    }
+    
+    51% {
+        bottom: -18px;
+        left: -18px;
+    }
+}

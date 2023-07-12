@@ -10,5 +10,5 @@
 }
 
 .menu-footer--links .material-symbols-outlined {
-    top: 1.5px;
+    transform: translateY(1.5px);
 }

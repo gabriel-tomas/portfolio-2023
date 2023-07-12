@@ -69,3 +69,7 @@
 @import url("../layout/cursor.css");
 
 @import url("../state/modules/main/portfolio-section/item-container/item/image-container.css");
+
+@import url("../modules/page-links/link/container-icon.css");
+
+@import url("../state/modules/links.css");
