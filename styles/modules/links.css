@@ -1,6 +1,7 @@
 .page-links {
     margin-top: 12px;
     margin-left: 2.1px;
+    width: fit-content;
 }
 
 .page-links > a {
