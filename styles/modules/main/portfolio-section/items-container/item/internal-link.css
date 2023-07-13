@@ -8,6 +8,13 @@
     margin-top: 0px;
     padding-block: 10px;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.334), transparent);
+    pointer-events: none;
+    touch-action: none;
+}
+
+.item--internal-link > a {
+    pointer-events: all;
+    touch-action: auto;
 }
 
 .item--internal-link p, .item--internal-link .material-symbols-outlined {
